@@ -87,10 +87,10 @@
 
         Common_Layer {
             bindings = <
-&kp ESCAPE  &kp LC(RIGHT)  &kp ENTER    &kp F5       &kp PLUS                 &kp LG(W)          &kp LG(LEFT_ARROW)  &mkp MB3        &kp LG(RIGHT_ARROW)  &kp HOME
-&kp LC(A)   &kp LC(S)      &kp PERCENT  &kp PERCENT  &trans                   &kp LC(PAGE_UP)    &mkp MB1            &kp UP_ARROW    &mkp MB2             &kp PAGE_UP
-&kp LC(Z)   &kp LC(X)      &kp LC(C)    &kp LC(V)    &kp LC(LEFT)  &kp EQUAL  &kp LC(PAGE_DOWN)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_DOWN
-&kp LCTRL   &trans         &trans       &trans       &trans        &trans     &trans             &kp LG(T)           &trans          &trans               &kp END
+&kp ESCAPE  &kp LC(RIGHT)  &kp ENTER    &kp F5       &kp PLUS                 &kp F2             &kp F10         &kp BACKSPACE   &kp DELETE       &trans
+&kp LC(A)   &kp LC(S)      &kp PERCENT  &kp PERCENT  &trans                   &kp LEFT           &kp DOWN        &kp UP_ARROW    &kp RIGHT        &trans
+&kp LC(Z)   &kp LC(X)      &kp LC(C)    &kp LC(V)    &kp LC(LEFT)  &kp EQUAL  &kp LC(PAGE_DOWN)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
+&kp LCTRL   &trans         &trans       &trans       &trans        &trans     &trans             &kp LG(T)       &trans          &trans           &kp END
             >;
 
             sensor-bindings = <&scroll_up_down>;
