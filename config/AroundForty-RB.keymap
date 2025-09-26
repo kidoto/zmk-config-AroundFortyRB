@@ -87,10 +87,10 @@
 
         Common_Layer {
             bindings = <
-&kp ESCAPE  &kp LC(RIGHT)  &kp ENTER    &kp F5       &kp PLUS                 &kp F2             &kp F10         &kp BACKSPACE   &kp DELETE       &trans
-&kp LC(A)   &kp LC(S)      &kp PERCENT  &kp PERCENT  &trans                   &kp LEFT           &kp DOWN        &kp UP_ARROW    &kp RIGHT        &trans
-&kp LC(Z)   &kp LC(X)      &kp LC(C)    &kp LC(V)    &kp LC(LEFT)  &kp EQUAL  &kp LC(PAGE_DOWN)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
-&kp LCTRL   &trans         &trans       &trans       &trans        &trans     &trans             &kp LG(T)       &trans          &trans           &kp END
+&kp ESCAPE  &kp LC(RIGHT)  &kp ENTER    &kp F5       &kp PLUS                 &kp F2            &kp F10            &kp BACKSPACE   &kp DELETE       &trans
+&kp LC(A)   &kp LC(S)      &kp PERCENT  &kp PERCENT  &trans                   &kp LEFT          &kp DOWN           &kp UP_ARROW    &kp RIGHT        &trans
+&kp LC(Z)   &kp LC(X)      &kp LC(C)    &kp LC(V)    &kp LC(LEFT)  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
+&kp LCTRL   &trans         &trans       &trans       &trans        &trans     &trans            &kp LG(T)          &trans          &trans           &kp PIPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -98,10 +98,10 @@
 
         Scroll_Layer {
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5           &kp PLUS      &kp MINUS   &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10          &kp EQUAL     &mkp MB1    &mkp MB2       &kp N5         &kp N6
-&kp F11  &kp F12  &trans  &trans  &trans   &trans  &kp ASTERISK  &kp SLASH   &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3
-&trans   &trans   &trans  &trans  &trans   &trans  &kp ENTER     &kp DOLLAR  &kp BACKSPACE  &kp AMPERSAND  &kp N0
+&kp LA(F4)  &kp LC(PG_DN)  &kp F3  &kp F4  &kp F5           &kp PLUS      &kp MINUS   &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9
+&kp F6      &kp F7         &kp F8  &kp F9  &kp F10          &kp EQUAL     &mkp MB1    &mkp MB2       &kp N5         &kp N6
+&kp F11     &kp F12        &trans  &trans  &trans   &trans  &kp ASTERISK  &kp SLASH   &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3
+&trans      &trans         &trans  &trans  &trans   &trans  &kp ENTER     &kp DOLLAR  &kp BACKSPACE  &kp AMPERSAND  &kp N0
             >;
         };
 
