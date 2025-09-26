@@ -98,10 +98,10 @@
 
         Scroll_Layer {
             bindings = <
-&kp LA(F4)  &kp LC(PG_DN)  &kp F3  &kp F4  &kp F5           &kp PLUS      &kp MINUS   &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9
-&kp F6      &kp F7         &kp F8  &kp F9  &kp F10          &kp EQUAL     &mkp MB1    &mkp MB2       &kp N5         &kp N6
-&kp F11     &kp F12        &trans  &trans  &trans   &trans  &kp ASTERISK  &kp SLASH   &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3
-&trans      &trans         &trans  &trans  &trans   &trans  &kp ENTER     &kp DOLLAR  &kp BACKSPACE  &kp AMPERSAND  &kp N0
+&kp LA(F4)  &kp LC(PG_DN)  &kp LC(PG_UP)  &kp F4  &kp F5                    &kp PLUS      &kp MINUS   &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9
+&kp F6      &kp LG(LS(S))  &kp F8         &kp F9  &kp F10                   &kp EQUAL     &mkp MB1    &mkp MB2       &kp N5         &kp N6
+&kp F11     &kp F12        &trans         &trans  &trans         &trans     &kp ASTERISK  &kp SLASH   &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3
+&trans      &trans         &trans         &trans  &kp LC(SPACE)  &kp CARET  &kp ENTER     &kp DOLLAR  &kp BACKSPACE  &kp AMPERSAND  &kp N0
             >;
         };
 
