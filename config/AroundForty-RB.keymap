@@ -76,10 +76,10 @@
 
         layer_1 {
             bindings = <
-&kp EQUAL      &kp DOUBLE_QUOTES  &kp N7        &kp N8        &kp N9                &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp MINUS
-&kp AT_SIGN    &kp EXCLAMATION    &kp NUMBER_4  &kp N5        &kp NUMBER_6          &kp RG(LEFT_ARROW)    &kp PG_DN              &kp PG_UP         &kp RG(RIGHT)    &kp SEMICOLON
-&kp PLUS       &kp N0             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp LS(NUMBER_7)      &kp QUESTION           &kp SLASH         &kp BACKSLASH    &kp ASTERISK
-&kp BACKSLASH  &kp CARET          &kp HASH      &kp SLASH     &trans        &trans  &kp LG(LS(RIGHT))     &kp COLON              &kp LG(UP_ARROW)  &kp BACKSLASH    &kp DOLLAR
+&kp EQUAL      &kp JP_DQUOTE  &kp N7        &kp N8        &kp N9                &kp JP_LPAREN  &kp JP_RPAREN  &kp JP_LBRACE    &kp JP_RBRACE  &kp MINUS
+&kp JP_AT    &kp EXCLAMATION    &kp NUMBER_4  &kp N5        &kp NUMBER_6          &kp RG(LEFT_ARROW)    &kp PG_DN              &kp PG_UP         &kp RG(RIGHT)    &kp SEMICOLON
+&kp JP_PLUS       &kp N0             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp LS(NUMBER_7)      &kp QUESTION           &kp SLASH         &kp JP_YEN    &kp JP_ASTERISK
+&kp BACKSLASH  &kp JP_CARET       &kp HASH      &kp SLASH     &trans        &trans  &kp LG(LS(RIGHT))     &kp COLON              &kp LG(UP_ARROW)  &kp BACKSLASH    &kp DOLLAR
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -87,8 +87,8 @@
 
         Common_Layer {
             bindings = <
-&kp ESCAPE  &kp LC(RIGHT)  &kp ENTER    &kp F5       &kp PLUS                 &kp F2            &kp F10            &kp BACKSPACE   &kp DELETE       &trans
-&kp LC(A)   &kp LC(S)      &kp PERCENT  &kp PERCENT  &trans                   &kp LEFT          &kp DOWN           &kp UP_ARROW    &kp RIGHT        &trans
+&kp ESCAPE  &kp LC(RIGHT)  &kp ENTER    &kp F5       &kp PLUS                 &kp F2            &kp F10            &kp BACKSPACE   &kp DELETE       &kp JP_UNDERSCORE
+&kp LC(A)   &kp LC(S)      &kp PERCENT  &kp PERCENT  &kp JP_AMPERSAND         &kp LEFT          &kp DOWN           &kp UP_ARROW    &kp RIGHT        &kp JP_COLON
 &kp LC(Z)   &kp LC(X)      &kp LC(C)    &kp LC(V)    &kp LC(LEFT)  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
 &kp LCTRL   &trans         &trans       &trans       &trans        &trans     &trans            &kp LG(T)          &trans          &trans           &kp PIPE
             >;
