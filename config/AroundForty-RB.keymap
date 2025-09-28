@@ -45,14 +45,20 @@
         winleft: winleft {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(LEFT) &kp LEFT_GUI>;
+            bindings = <&macro_press &kp LEFT_GUI>
+                , <&macro_tap &kp LEFT>
+                , <&macro_release &kp LEFT_GUI>
+                ;
             label = "WINLEFT";
         };
 
         winright: winright {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(RIGHT) &kp LEFT_GUI>;
+            bindings = <&macro_press &kp LEFT_GUI>
+                , <&macro_tap &kp RIGHT>
+                , <&macro_release &kp LEFT_GUI>
+                ;
             label = "WINRIGHT";
         };
     };
