@@ -91,7 +91,7 @@
         layer_1 {
             bindings = <
 &kp JP_EQUAL   &kp JP_DQUOTE    &kp N7        &kp N8        &kp N9                &kp JP_LPAREN       &kp JP_RPAREN  &kp JP_LBRACE     &kp JP_RBRACE  &kp MINUS
-&kp JP_AT      &kp EXCLAMATION  &kp NUMBER_4  &kp N5        &kp NUMBER_6          &kp RG(LEFT_ARROW)  &kp PG_DN      &kp PG_UP         &kp RG(RIGHT)  &kp SEMICOLON
+&kp JP_AT      &kp EXCLAMATION  &kp NUMBER_4  &kp N5        &kp NUMBER_6          &winleft  &kp PG_DN      &kp PG_UP         &winright  &kp SEMICOLON
 &kp JP_PLUS    &kp N0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp LS(NUMBER_7)    &kp QUESTION   &kp SLASH         &kp JP_YEN     &kp JP_ASTERISK
 &kp BACKSLASH  &kp JP_CARET     &kp HASH      &kp SLASH     &trans        &trans  &kp LG(LS(RIGHT))   &kp COLON      &kp LG(UP_ARROW)  &kp BACKSLASH  &kp DOLLAR
             >;
